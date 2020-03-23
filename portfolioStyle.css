@@ -1,0 +1,72 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  
+}
+/* Style the background and text */
+body{
+  background-image: url("medical.jpg");
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left: 460px;
+}
+h2{
+  margin-left: 50px;
+  margin-right: 
+}
+p{
+  margin-left:60px;
+}
+
+img{
+  margin-left: 420px;
+  margin-top: -90px;
+  max-width: 25%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: blue;
+  color: white;
+}
+/* Size of the section */
+#welcome{
+  height: 700px;
+  display: inline;
+  justify-content: center;
+  /* Need to add a picture here and set position. */
+}
+#info{
+  background: green;
+  height: 450px;
+  
+}
