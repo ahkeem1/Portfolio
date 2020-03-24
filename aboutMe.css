@@ -1,14 +1,16 @@
 /* Style the navigation menu */
 .topnav {
+  overflow: hidden;
   background-color: black;
   position: relative;
-  text-align: center;
-  padding: 90px, background-color: green;
   
 }
 /* Style the background and text */
 body{
-  background-image: url("medical.jpg");
+  background-image: url("goodnight.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
@@ -76,5 +78,3 @@ img{
   background: green;
   height: 450px; 
 }
-
-
